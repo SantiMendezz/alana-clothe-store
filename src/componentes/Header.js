@@ -17,7 +17,7 @@ const Header = () => {
                     <button className='boton-busqueda'><IoIosSearch className='logo-busqueda' /></button>
                 </div>
                 <div className='logo-container'>
-                    <Link to='/'>
+                    <Link to='/alana-clothe-store"'>
                         <img src={logoAlana} alt="Logo Alana" className='alana-logo'/>
                     </Link>
                 </div>
@@ -26,8 +26,8 @@ const Header = () => {
                     <div className='cuenta-container'>
                         <IoPersonSharp alt='Imagen de cuenta' className='cuenta-logo cuenta-carrito-logos' />
                         <ul className='menu-vertical'>
-                            <li><Link to='/' className='links-cuenta'>Crear Cuenta</Link></li>
-                            <li><Link to='/' className='links-cuenta'>Iniciar Sesión</Link></li>
+                            <li><Link to='/alana-clothe-store"' className='links-cuenta'>Crear Cuenta</Link></li>
+                            <li><Link to='/alana-clothe-store"' className='links-cuenta'>Iniciar Sesión</Link></li>
                         </ul>
                     </div>
                     <div className='carrito'>

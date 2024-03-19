@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className='div-nav'>
                         <h4>Categorías</h4>
                         <nav className='footer-bar'>
-                            <Link className='footer-link' to='/'>Inicio</Link>
+                            <Link className='footer-link' to='/alana-clothe-store'>Inicio</Link>
                             <Link className='footer-link' to='/productos'>Productos</Link>
                             <Link className='footer-link' to='/quienes-somos'>Quienes Somos</Link>
                             <Link className='footer-link' to='/contacto'>Contacto</Link>

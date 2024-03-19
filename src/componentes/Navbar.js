@@ -26,7 +26,7 @@ const Navbar = () => {
     return (
         <div className='container-navbar'>
             <nav className='nav-bar' ref={navRef}>
-                <Link className='link' to='/' onClick={closeNavBar}>Inicio</Link>
+                <Link className='link' to='/alana-clothe-store"' onClick={closeNavBar}>Inicio</Link>
                 <Link className='link' to='/productos' onClick={closeNavBar}>Productos</Link>
                 <Link className='link' to='/quienes-somos' onClick={closeNavBar}>Quienes Somos</Link>
                 <Link className='link' to='/contacto' onClick={closeNavBar}>Contacto</Link>
