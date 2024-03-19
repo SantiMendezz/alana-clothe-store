@@ -17,7 +17,7 @@ const Header = () => {
                     <button className='boton-busqueda'><IoIosSearch className='logo-busqueda' /></button>
                 </div>
                 <div className='logo-container'>
-                    <Link to='/alana-clothe-store"'>
+                    <Link to='/alana-clothe-store'>
                         <img src={logoAlana} alt="Logo Alana" className='alana-logo'/>
                     </Link>
                 </div>
