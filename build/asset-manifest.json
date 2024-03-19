@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alana-clothe-store/static/css/main.fb464c86.css",
-    "main.js": "/alana-clothe-store/static/js/main.c7f78c0e.js",
+    "main.js": "/alana-clothe-store/static/js/main.b8ec5c60.js",
     "static/js/453.2109113f.chunk.js": "/alana-clothe-store/static/js/453.2109113f.chunk.js",
     "static/media/top.jpg": "/alana-clothe-store/static/media/top.6fbb9f48c3b3d486c5fe.jpg",
     "static/media/feria-americana.webp": "/alana-clothe-store/static/media/feria-americana.56043d14b4b684ab2bdb.webp",
@@ -19,11 +19,11 @@
     "static/media/revicons.woff": "/alana-clothe-store/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/alana-clothe-store/index.html",
     "main.fb464c86.css.map": "/alana-clothe-store/static/css/main.fb464c86.css.map",
-    "main.c7f78c0e.js.map": "/alana-clothe-store/static/js/main.c7f78c0e.js.map",
+    "main.b8ec5c60.js.map": "/alana-clothe-store/static/js/main.b8ec5c60.js.map",
     "453.2109113f.chunk.js.map": "/alana-clothe-store/static/js/453.2109113f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb464c86.css",
-    "static/js/main.c7f78c0e.js"
+    "static/js/main.b8ec5c60.js"
   ]
 }

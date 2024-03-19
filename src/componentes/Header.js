@@ -26,8 +26,8 @@ const Header = () => {
                     <div className='cuenta-container'>
                         <IoPersonSharp alt='Imagen de cuenta' className='cuenta-logo cuenta-carrito-logos' />
                         <ul className='menu-vertical'>
-                            <li><Link to='/alana-clothe-store"' className='links-cuenta'>Crear Cuenta</Link></li>
-                            <li><Link to='/alana-clothe-store"' className='links-cuenta'>Iniciar Sesión</Link></li>
+                            <li><Link to='/alana-clothe-store' className='links-cuenta'>Crear Cuenta</Link></li>
+                            <li><Link to='/alana-clothe-store' className='links-cuenta'>Iniciar Sesión</Link></li>
                         </ul>
                     </div>
                     <div className='carrito'>
