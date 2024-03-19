@@ -1,0 +1,101 @@
+.container-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  padding: 0 2rem;
+  background-color: var(--light-brown);
+  color: var(--black);
+  /* Para que si se hace scroll, la barra siga estando en la parte superior */
+  z-index: 100;
+}
+
+.nav-bar .link {
+  margin: 0 2rem;
+  color: var(--black);
+  text-decoration: none;
+  /* Elemento sigue siendo de linea -> pero se puede establecer height and width */
+  display: inline-block;
+  background-color: var(--light-brown);
+  /* Nombre de la propiedad | duracion | funcion | retardo */
+  transition: all 0.3s ease 0s;
+}
+
+.nav-bar .link:hover {
+  color: var(--grey);
+}
+
+/* Botones */
+.container-navbar .nav-btn {
+  padding: 0.2rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--black);
+  font-size: 1.8rem;
+
+  /* El objeto sigue ocupando su lugar en el DOM pero no es visible */
+  /* visibility: hidden; */
+  /* opacity: 0; */
+
+  /* El objeto no es renderizado por el DOM */
+  display: none;
+}
+
+@media only screen and (max-width: 1080px) {
+  .container-navbar {
+    justify-content: flex-start;
+  }
+
+  .container-navbar .nav-btn {
+    /* Para darle visibilidad al objeto */
+    /* visibility: visible;
+    opacity: 1; */
+
+    /* El objeto es renderizado por el DOM */
+    display: inline;
+  }
+
+  .container-navbar .nav-bar {
+    /* Mantiene su ubicacion con respecto al viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    /* Display de los elmentos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Separacion entre los elementos */
+    gap:1.5rem;
+
+    background-color: var(--light-brown);
+    /* Duracion */
+    transition: 1s;
+    /* Oculta la barra de navegacion completamente por fuera del viewport -> por ser -100vh*/
+    transform: translateY(-100vh);
+  }
+
+  .container-navbar .responsive_nav {
+    /* Cancela la transformacion */
+    transform: none;
+  }
+
+  .nav-bar .nav-close-btn {
+    /* Is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+    However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. */
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .nav-bar .link {
+    font-size: 1.5rem;
+    display: inline;
+  }
+}

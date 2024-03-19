@@ -1,0 +1,54 @@
+.contenedor-redes {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    height: 12rem;
+    background-color: var(--light-brown);
+}
+
+.seguinos {
+    display: flex;
+    justify-content: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h3-seguinos {
+    font-weight: 700;
+    color: var(--black);
+}
+
+.enlace-redes {
+    text-decoration: none;
+    color: var(--black);
+    /* Nombre de la propiedad | duracion | funcion | retardo */
+    transition: all 0.5s ease 0s;
+}
+
+.enlace-redes:hover {
+    color: var(--grey);
+}
+
+.red-img {
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 1rem;
+}
+
+.texto {
+    display: block;
+}
+
+@media screen and (max-width: 478px) {
+    .redes {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

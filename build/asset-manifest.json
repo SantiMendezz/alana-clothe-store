@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/alana-clothe-store/build/static/css/main.3ba9b080.css",
+    "main.js": "/alana-clothe-store/build/static/js/main.915e6321.js",
+    "static/js/453.2109113f.chunk.js": "/alana-clothe-store/build/static/js/453.2109113f.chunk.js",
+    "static/media/top.jpg": "/alana-clothe-store/build/static/media/top.6fbb9f48c3b3d486c5fe.jpg",
+    "static/media/feria-americana.webp": "/alana-clothe-store/build/static/media/feria-americana.56043d14b4b684ab2bdb.webp",
+    "static/media/imagen-slide.jpg": "/alana-clothe-store/build/static/media/imagen-slide.cbe2194d007590d6a757.jpg",
+    "static/media/Mercado-Pago-Logo.png": "/alana-clothe-store/build/static/media/Mercado-Pago-Logo.691985687187510422b8.png",
+    "static/media/alana-logo.jpg": "/alana-clothe-store/build/static/media/alana-logo.7d81d0bb83fe5325bab1.jpg",
+    "static/media/dinero.png": "/alana-clothe-store/build/static/media/dinero.b31c615a93a9f1b0772a.png",
+    "static/media/apreton-de-manos.png": "/alana-clothe-store/build/static/media/apreton-de-manos.906fe1f07095352eb7b6.png",
+    "static/media/instagram-logo.png": "/alana-clothe-store/build/static/media/instagram-logo.776d16d0e9daa177afd5.png",
+    "static/media/tienda.png": "/alana-clothe-store/build/static/media/tienda.638e34b8f9cd12581570.png",
+    "static/media/dineroMinimal.png": "/alana-clothe-store/build/static/media/dineroMinimal.942e4d3ae4878560529e.png",
+    "static/media/revicons.eot": "/alana-clothe-store/build/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/alana-clothe-store/build/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/bolsa-de-la-compra.png": "/alana-clothe-store/build/static/media/bolsa-de-la-compra.184fa9fbc7abb92ed181.png",
+    "static/media/revicons.woff": "/alana-clothe-store/build/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/alana-clothe-store/build/index.html",
+    "main.3ba9b080.css.map": "/alana-clothe-store/build/static/css/main.3ba9b080.css.map",
+    "main.915e6321.js.map": "/alana-clothe-store/build/static/js/main.915e6321.js.map",
+    "453.2109113f.chunk.js.map": "/alana-clothe-store/build/static/js/453.2109113f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba9b080.css",
+    "static/js/main.915e6321.js"
+  ]
+}

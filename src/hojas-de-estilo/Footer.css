@@ -1,0 +1,109 @@
+.div-nav {
+    margin-top:1rem;
+}
+
+.footer-contenedor {
+    background-color: var(--black);
+    color: var(--white);
+    padding-bottom: 1rem;
+}
+
+.contenedor-footer-1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor-footer-1 {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width: 440px) {
+    .contenedor-footer-1 {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+h4 {
+    font-weight: 700;
+}
+
+/* Categorias */
+.div-contactados {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.div-nav {
+    margin-left: 1rem;
+}
+
+.footer-bar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--white);
+    transition: all 0.3s ease 0s;
+    margin: 0.3rem 0;
+}
+
+.footer-link:hover {
+    color: var(--grey);
+}
+
+/* Contactanos */
+.div-contactanos{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.div-contactanos div p {
+    margin-top: 0.2rem;
+}
+
+.icon-contactanos {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.icon-conectados {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.icon-conectados {
+    margin-left: 1rem;
+}
+
+.div-contactados a {
+    color: var(--white);
+}
+
+/* Medios */
+.iconos-footer {
+    width: 3.1rem;
+    height: 2.5rem;
+    margin: 0 1rem;
+}
+
+.medios {
+    display: inline;
+    margin: 1rem 1rem 0 1rem;
+}
+
+/* Copy */
+.copy {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: var(--white);
+    padding-top: 0.5rem;
+}

@@ -1,0 +1,54 @@
+.contenedor-opciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-opciones div {
+  margin: 0 5rem;
+  height: 18rem;
+  width: 28rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.6);
+  margin-top: 1.5rem;
+  display: grid;
+}
+
+.crochet {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(../imagenes/crochet.jpeg);
+}
+
+.contenedor-opciones .feria {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(../imagenes/feria-americana.webp);
+}
+
+.contenedor-opciones div h2 {
+  margin: auto;
+  color: var(--white);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Botones */
+.contenedor-opciones div button {
+  font-size: 0.9rem;
+  font-weight: 300;
+  width: 8rem;
+  height: 2.2rem;
+
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  
+  background: transparent;
+  color: var(--white);
+  border-radius: 15px 15px 15px 15px;
+  border-color: var(--white);
+  transition: all 0.5s ease 0s;
+}
+
+.contenedor-opciones div button:hover {
+  background-color: var(--black);
+}

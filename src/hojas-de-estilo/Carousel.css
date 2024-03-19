@@ -1,0 +1,16 @@
+.carousel-edit {
+    margin: 1.5rem 0;
+    /* Asi el navbar puede posicionarse por encima */
+    z-index: -1;
+}
+
+.carousel-item img {
+    height: 32rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1240px) {
+    .carousel-item img {
+        height: 24rem;
+    }
+}

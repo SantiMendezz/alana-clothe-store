@@ -1,0 +1,213 @@
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: var(--white);
+}
+
+/* Contenedores */
+.busqueda-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Logos */
+.alana-logo {
+    height: 8rem;
+    width: 8rem;
+}
+
+.media-logo {
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.face-logo {
+    margin-right: 0.5rem;
+}
+
+.insta-logo {
+    margin-right: 0.5rem;
+    margin-right: 12rem;
+}
+
+.cuenta-logo {
+    color: #000;
+    cursor: pointer;
+}
+
+.cuenta-carrito-logos {
+    height: 2.5rem;
+    width: 5rem;
+}
+
+/* Busqueda */
+.input-busqueda {
+    padding: 0.6rem;
+    padding-right: 2rem;
+    border-radius: 15px 0 0 15px;
+    border: 0;
+    outline:none;
+    background-color: var(--light-brown);
+    color: var(--black);
+}
+
+.boton-busqueda {
+    background-color: var(--light-brown);
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.logo-busqueda {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Carrito */
+.carrito-logo {
+    height: 2.5rem;
+    width: 2.2rem;
+    vertical-align: none;
+}
+
+.carrito {
+    cursor: pointer;
+    position: relative;
+    margin-right: 4rem;
+}
+
+.carrito span {
+    position: absolute; /* Establece el número como posición absoluta */
+    top: -10px; /* Ajusta la posición superior para que esté cerca del borde superior */
+    right: -10px; /* Ajusta la posición derecha para que esté cerca del borde derecho */
+    background-color: red; /* Color de fondo del número */
+    color: white; /* Color del texto */
+    border-radius: 50%; /* Hace que el número tenga forma de círculo */
+    padding: 3px 6px; /* Ajusta el relleno para que el número no esté muy cerca del borde */
+    font-size: 12px; /* Tamaño del texto */
+}
+
+/* Menu desplegable de la cuenta */
+.menu-vertical li {
+    list-style: none;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    width: 5.5rem;
+    background-color: var(--light-brown);
+    /* border: 1px solid var(--black); */
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 0.2rem !important;
+}
+
+.cuenta-container:hover .menu-vertical {
+    display: block;
+}
+
+.links-cuenta {
+    color: var(--black);
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+}
+
+/* Ajustes por tamaño de pantalla */
+@media only screen and (max-width: 1260px){
+    .insta-logo {
+        margin-right: 6rem;
+    }
+
+    .cuenta-carrito-logos {
+        height: 2rem;
+    }
+
+    .cuenta-logo {
+        width: 4rem;
+    }
+}
+
+@media only screen and (max-width:748px) {
+    .busqueda-container {
+        margin-left: 0.5rem;
+    }
+
+    .input-busqueda {
+        padding: 0.3rem;
+        padding-right: 1rem;
+    }
+    
+    .boton-busqueda {
+        padding: 0.3rem;
+    }
+    
+    .logo-busqueda {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    /* Logos */
+    .carrito {
+        margin-right: 1rem;
+    }
+
+    .cuenta-carrito-logos {
+        height: 1.5rem;
+    }
+
+    .cuenta-logo {
+        width: 3rem;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .busqueda-container {
+        margin-left: 0.25rem;
+    }
+
+    .input-busqueda {
+        width: 6rem;
+        padding: 0.15rem;
+        padding-right: 0.5rem;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .boton-busqueda {
+        padding: 0.125rem;
+        border-radius: 0 5px 5px 0;
+    }
+    
+    .logo-busqueda {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .alana-logo {
+        height: 6rem;
+        width: 6rem;
+    }
+    
+    .insta-logo {
+        margin-right: 1rem;
+    }
+
+    .cuenta-logo {
+        width: 2rem;
+    }
+}
