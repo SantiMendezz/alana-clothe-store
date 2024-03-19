@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Navbar />
         <Routes>
-          <Route exact path='/alana-clothe-store/' element={<Inicio/>} />
+          <Route exact path='/alana-clothe-store/build' element={<Inicio/>} />
           <Route path='/contacto' element={<Contacto/>} />
           <Route path='/preguntas-frecuentes' element={<PreguntasFrecuentes/>} />
           <Route path='/productos' element={<Productos/>} />
