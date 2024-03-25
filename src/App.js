@@ -10,6 +10,8 @@ import GuiaDeTalles from './paginas/GuiaDeTalles';
 import Header from './componentes/Header';
 import Footer from './componentes/Footer';
 
+import SignUp from './componentes/signup/SignUp';
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,8 @@ function App() {
           <Route path='/productos' element={<Productos/>} />
           <Route path='/quienes-somos' element={<QuienesSomos/>} />
           <Route path='/guia-de-talles' element={<GuiaDeTalles/>} />
+
+          <Route path='/sign-up' element={<SignUp/>} />
         </Routes>
       <Footer />
       </BrowserRouter>

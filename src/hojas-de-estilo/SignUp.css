@@ -1,0 +1,51 @@
+.contenedor-registro {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.contenedor-registro h2 {
+    font-weight: 700;
+    margin: 1.5rem 0rem;
+}
+
+.formulario-crear-cuenta {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 3rem;
+}
+
+.formulario-crear-cuenta div {
+    margin-bottom: 0.8rem;
+}
+
+.formulario-crear-cuenta div:last-child {
+    margin-bottom: 1rem;
+}
+
+.formulario-crear-cuenta div label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.formulario-crear-cuenta div input {
+    width: 100%;
+    padding: 1%;
+}
+
+.boton-crear-cuenta {
+    border: none;
+    background-color: #000;
+    color: var(--white);
+    border-radius: 100px;
+    padding: 0.5rem 0rem;
+    margin-top: 0.5rem;
+    transition: all 0.5s ease 0s;
+}
+
+.boton-crear-cuenta:hover {
+    background-color: var(--black);
+}
